@@ -1,0 +1,55 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f8d7da; /* Light pink background */
+      font-family: sans-serif;
+    }
+
+    .container {
+      text-align: center;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #d9534f; /* Red color for the heading */
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    button, a {
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: none;
+    }
+
+    #yesButton {
+      background-color: #5cb85c; /* Green color for Yes */
+      color: white;
+      text-decoration: none; /* Remove underline from the link */
+      display: inline-block; /* Ensure it behaves like a button */
+    }
+
+    #noButton {
+      background-color: #d9534f; /* Red color for No */
+      color: white;
+      position: relative; /* For absolute positioning later */
+    }
+
+    .cute-gif {
+      max-width: 100%; /* Ensure GIF doesn't overflow */
+      margin-bottom: 20px; /* Space between GIF and question */
+      border-radius: 10px;
+    }
